@@ -1,0 +1,27 @@
+{
+    "PROJECT_NAME_DEFAULT" :"Neural_template",
+    "ENVIRONMENT_NAME_DEFAULT":"env",
+    "STRUCTURE" : [
+        "src",
+        "data\\train",
+        "data\\test",
+        "data\\real",
+        "models"
+    ],
+    "BASE_FILES":[
+        "src\\generator.py",
+        "src\\model.py",
+        "src\\train.py",
+        "src\\evaluate.py",
+        "src\\evaluate_real_case.py"
+    ],
+    "REQUIREMENTS" :[
+        "tensorflow",
+        "numpy",
+        "matplotlib",
+        "seaborn",
+        "scikit-image",
+        "opencv-python"
+    ]
+
+}
